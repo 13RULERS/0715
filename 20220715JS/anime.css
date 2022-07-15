@@ -1,0 +1,21 @@
+@keyframes change {
+    0%{background-color: lemonchiffon;top: 10px;left: 10px;}
+    15%{background-color: darkslateblue;top: 15px;left: 20px;}
+    30%{background-color: rgb(139, 61, 61);top: 20px;left: 30px;}
+    60%{background-color: rgb(141, 124, 25);top: 25px;left: 40px;}
+    75%{background-color: rgb(81, 163, 48);top: 30px;left: 50px;}
+    95%{background-color: rgb(14, 146, 163);top: 35px;left: 60px;}
+    100%{background-color: rgb(13, 20, 80);top: 40px;left: 70px;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+.box-animation{
+    animation-name: change;
+    animation-duration: 13s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
